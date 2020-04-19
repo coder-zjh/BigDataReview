@@ -1,1 +1,109 @@
+> https://cwiki.apache.org/confluence/display/Hive/Tutorial
+
+# 概念
+
+## 什么是Hive
+
+- Hive是一个基于Apache Hadoop的**数据仓库**。
+- Hadoop为数据在商用硬件上的存储和处理提供横向扩展架构和容错能力。
+- Hive旨在简化数据汇总、点对点查询和大体量数据的分析。
+- Hive提供了使用户能更方便的进行点对点查询、汇总、和数据分析的SQL语法。
+- 同时，Hive的SQL给予用户很多空间来植入他们自己的函数去做定制化分析，比方说**用户定义函数**(UDFs)
+
+## 什么不是Hive
+
+- Hive不是被设计用来做实时的事务处理。
+- Hive最好被用来做传统的数据仓库任务。
+
+## 数据单元
+
+根据粒度排序，Hive的数据被分为：
+
+- 数据库(Databases)
+- 表(Tables)
+- 分区(Partitions)
+- 分桶(Buckets or Clusters)
+
+## 类型系统
+
+#### 基础类型
+
+- Integers
+  - TINYINT—1 byte integer
+  - SMALLINT—2 byte integer
+  - INT—4 byte integer
+  - BIGINT—8 byte integer
+- Boolean type
+  - BOOLEAN—TRUE/FALSE
+- Floating point numbers
+  - FLOAT—single precision
+  - DOUBLE—Double precision
+- Fixed point numbers
+  - DECIMAL—a fixed point value of user defined scale and precision
+- String types
+  - STRING—sequence of characters in a specified character set
+  - VARCHAR—sequence of characters in a specified character set with a maximum length
+  - CHAR—sequence of characters in a specified character set with a defined length
+- Date and time types
+  - TIMESTAMP — A date and time without a timezone ("LocalDateTime" semantics)
+  - TIMESTAMP WITH LOCAL TIME ZONE — A point in time measured down to nanoseconds ("Instant" semantics)
+  - DATE—a date
+- Binary types
+  - BINARY—a sequence of bytes
+
+
+
+
+
+
+
+#### 复杂类型
+
+
+
+
+
+
+
+#### 时间戳
+
+
+
+### 自带算子和函数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> 推荐阅读
+
+[1] https://blog.csdn.net/kepa520/article/details/82791470
+
+[2] [https://baike.baidu.com/item/Ad%20hoc/534288?fromtitle=Ad-hoc&fromid=10823688&fr=aladdin](https://baike.baidu.com/item/Ad hoc/534288?fromtitle=Ad-hoc&fromid=10823688&fr=aladdin)
+
+
+
+
+
+
+
+
 
